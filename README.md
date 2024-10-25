@@ -95,7 +95,7 @@ select category,
 from retail_sales
 group by category;
 ```
-4. **write a sql query to claculte total sales and orders for each category.**: 
+4. **write a sql query to calculate total sales and orders for each category.**: 
 ```sql
 SELECT category, 
 sum(total_sale) as Total_sales,
@@ -146,7 +146,7 @@ FROM ranked_sales
 WHERE rank_op = 1;
 ```
 
-8. **Write a SQL query to find the top 5 customers based on the highest total sales **:
+8. **Write a SQL query to find the top 5 customers based on the highest total sales.**:
 ```sql
 select customer_id, 
        sum(total_sale) as total_sales 
@@ -197,5 +197,10 @@ group by shift;
 ## Conclusion
 
 This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
+
+## Author - Yeshwanth Konda
+
+This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
+**LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/yeshwanthkonda/)
 
 **THANK YOU**
